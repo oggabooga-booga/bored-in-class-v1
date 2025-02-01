@@ -46,10 +46,10 @@ document.addEventListener('DOMContentLoaded', function () {
         const musicChoice = musicSelect.value;
         switch (musicChoice) {
             case 'music1':
-                audioSource.src = 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3';
+                audioSource.src = 'https://pixabay.com/music/main-title-epic-cinematic-music-293619/';
                 break;
             case 'music2':
-                audioSource.src = 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3';
+                audioSource.src = 'https://pixabay.com/music/main-title-epic-hollywood-trailer-9489/';
                 break;
             default:
                 audioSource.src = '';
