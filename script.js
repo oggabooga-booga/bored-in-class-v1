@@ -12,10 +12,12 @@ document.addEventListener('DOMContentLoaded', function () {
     backgroundToggle.addEventListener('change', function () {
         if (backgroundToggle.checked) {
             backgroundOptions.style.display = 'block'; // Show the image selector
-            document.body.classList.add(backgroundSelect.value); // Add selected background class
+            // Default to background 1 if it's toggled on
+            document.body.classList.add(backgroundSelect.value); 
         } else {
             backgroundOptions.style.display = 'none'; // Hide the image selector
             document.body.classList.remove('background1', 'background2'); // Remove any background class
+            document.body.style.backgroundColor = '#5A2D87'; // Keep purple background if no image is selected
         }
     });
 
