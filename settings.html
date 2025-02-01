@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Settings - Bored in Class</title>
-    <link rel="icon" href="assets/favicon.ico">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/1828/1828771.png">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Bored in Class</h1>
+        <div class="logo">
+            <h1>Bored in Class</h1>
+        </div>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -18,40 +20,43 @@
             </ul>
         </nav>
     </header>
+
     <main>
-        <h2>Settings</h2>
-        <div>
-            <label for="background-toggle">Enable/Disable Background Image:</label>
-            <input type="checkbox" id="background-toggle">
-        </div>
-        
-        <div id="background-options" style="display: none;">
-            <label for="background-select">Choose Background Image:</label>
-            <select id="background-select">
-                <option value="image1">Background 1</option>
-                <option value="image2">Background 2</option>
-                <option value="image3">Background 3</option>
-            </select>
-        </div>
+        <section>
+            <h2>Settings</h2>
+            <div>
+                <label for="background-toggle">Enable/Disable Background Image</label>
+                <input type="checkbox" id="background-toggle">
+            </div>
+            <div id="background-options" style="display: none;">
+                <label for="background-select">Choose Background Image</label>
+                <select id="background-select">
+                    <option value="background1">Background 1</option>
+                    <option value="background2">Background 2</option>
+                </select>
+            </div>
 
-        <div>
-            <label for="music-toggle">Enable/Disable Background Music:</label>
-            <input type="checkbox" id="music-toggle">
-        </div>
+            <div>
+                <label for="music-toggle">Enable/Disable Music</label>
+                <input type="checkbox" id="music-toggle">
+            </div>
 
-        <div id="music-options" style="display: none;">
-            <label for="music-select">Choose Background Music:</label>
-            <select id="music-select">
-                <option value="music1">Music 1</option>
-                <option value="music2">Music 2</option>
-                <option value="music3">Music 3</option>
-            </select>
-            <audio id="background-audio" loop>
-                <source id="audio-source" src="" type="audio/mp3">
-                Your browser does not support the audio element.
-            </audio>
-        </div>
+            <div id="music-options" style="display: none;">
+                <label for="music-select">Choose Music</label>
+                <select id="music-select">
+                    <option value="music1">Music 1</option>
+                    <option value="music2">Music 2</option>
+                </select>
+                <audio id="background-audio" loop>
+                    <source id="audio-source" src="" type="audio/mp3">
+                </audio>
+            </div>
+        </section>
     </main>
+
+    <footer>
+        <p>&copy; 2025 Bored in Class. All rights reserved.</p>
+    </footer>
 
     <script src="script.js"></script>
 </body>
