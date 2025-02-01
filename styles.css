@@ -82,13 +82,13 @@ select:focus, input[type="checkbox"]:focus {
 
 /* Background images */
 body.background1 {
-    background-image: url('https://images.unsplash.com/photo-1549411766-d4bc6ad9a34b');
+    background-image: url('https://static.vecteezy.com/system/resources/previews/030/353/225/non_2x/beautiful-night-sky-background-ai-generated-photo.jpg');
     background-size: cover;
     background-position: center;
 }
 
 body.background2 {
-    background-image: url('https://images.unsplash.com/photo-1566438485-2bb08390b700');
+    background-image: url('https://img.freepik.com/free-vector/gradient-particle-wave-background_23-2150517309.jpg');
     background-size: cover;
     background-position: center;
 }
