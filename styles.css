@@ -7,9 +7,10 @@
 
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f2f2f2;
+    background-color: #5A2D87; /* Purple background for the whole page */
     color: #333;
     transition: background-color 0.3s ease;
+    min-height: 100vh; /* Ensures full-page height */
 }
 
 header {
@@ -90,4 +91,17 @@ body.background2 {
     background-image: url('https://images.unsplash.com/photo-1566438485-2bb08390b700');
     background-size: cover;
     background-position: center;
+}
+
+/* Add a slight overlay to the backgrounds to improve readability */
+body.background1::after,
+body.background2::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4); /* Dark overlay */
+    z-index: -1; /* Place the overlay behind text */
 }
