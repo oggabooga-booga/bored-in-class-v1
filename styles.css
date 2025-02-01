@@ -43,7 +43,7 @@ main {
     position: absolute;
     width: 100px;
     height: 100px;
-    background: url('assets/dvd-logo.png') no-repeat center center;
+    background: url('https://media.tenor.com/HwkPm6f1yzIAAAAM/yuimetal.gif') no-repeat center center;
     background-size: contain;
     animation: bounce 5s infinite linear;
 }
