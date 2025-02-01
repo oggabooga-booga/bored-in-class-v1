@@ -44,13 +44,13 @@ document.addEventListener('DOMContentLoaded', function () {
         const musicChoice = musicSelect.value;
         switch (musicChoice) {
             case 'music1':
-                audioSource.src = 'assets/music1.mp3';
+                audioSource.src = 'assets/epic-cinematic-music-293619.mp3';
                 break;
             case 'music2':
-                audioSource.src = 'assets/music2.mp3';
+                audioSource.src = 'assets/world-war-iii-268932.mp3';
                 break;
             case 'music3':
-                audioSource.src = 'assets/music3.mp3';
+                audioSource.src = 'assets/epical-background-music-295028.mp3';
                 break;
             default:
                 audioSource.src = '';
