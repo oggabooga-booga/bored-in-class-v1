@@ -39,34 +39,26 @@ main {
     text-align: center;
 }
 
-.bouncing-logo {
-    position: absolute;
-    width: 100px;
-    height: 100px;
-    background: url('https://media.tenor.com/HwkPm6f1yzIAAAAM/yuimetal.gif') no-repeat center center;
-    background-size: contain;
-    animation: bounce 5s infinite linear;
+/* Background image options */
+.background-1 {
+    background-image: url('assets/background1.jpg');
 }
 
-@keyframes bounce {
-    0% {
-        top: 0;
-        left: 0;
-    }
-    25% {
-        top: 0;
-        left: calc(100vw - 100px);
-    }
-    50% {
-        top: calc(100vh - 100px);
-        left: calc(100vw - 100px);
-    }
-    75% {
-        top: calc(100vh - 100px);
-        left: 0;
-    }
-    100% {
-        top: 0;
-        left: 0;
-    }
+.background-2 {
+    background-image: url('assets/background2.jpg');
+}
+
+.background-3 {
+    background-image: url('assets/background3.jpg');
+}
+
+/* Styles for select elements */
+select {
+    margin-top: 10px;
+    padding: 5px;
+    font-size: 16px;
+}
+
+input[type="checkbox"] {
+    margin-left: 10px;
 }
