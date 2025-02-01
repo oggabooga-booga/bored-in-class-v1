@@ -41,15 +41,15 @@ main {
 
 /* Background image options */
 .background-1 {
-    background-image: url('assets/background1.jpg');
+    background-image: url('assets/background-6824_256.gif');
 }
 
 .background-2 {
-    background-image: url('assets/background2.jpg');
+    background-image: url('texture-6966_256.gif');
 }
 
 .background-3 {
-    background-image: url('assets/background3.jpg');
+    background-image: url('waves-4494_256.gif');
 }
 
 /* Styles for select elements */
