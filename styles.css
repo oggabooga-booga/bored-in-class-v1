@@ -54,11 +54,11 @@ main {
     text-align: center;
 }
 
-.settings {
+.content {
     margin-top: 50px;
 }
 
-.settings label {
+.content label {
     font-size: 1.5em;
     margin-right: 10px;
 }
