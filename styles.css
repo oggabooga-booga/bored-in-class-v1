@@ -63,7 +63,7 @@ main {
     margin-right: 10px;
 }
 
-input[type="checkbox"], select {
+input[type="checkbox"] {
     margin-top: 10px;
     padding: 10px;
     font-size: 1.2em;
@@ -74,7 +74,7 @@ input[type="checkbox"], select {
     transition: background-color 0.3s ease;
 }
 
-input[type="checkbox"]:checked, select:focus {
+input[type="checkbox"]:checked {
     background-color: #7A2F9D;
 }
 
@@ -91,9 +91,4 @@ header.dark-mode {
 footer.dark-mode {
     background-color: #1a1a1a;
     color: white;
-}
-
-/* Background Music and Audio styles */
-audio {
-    display: none;
 }
