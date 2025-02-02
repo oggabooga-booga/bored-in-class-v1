@@ -6,8 +6,8 @@
 }
 
 body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f0f0f0; /* Light background color by default */
+    font-family: 'Roboto', sans-serif;
+    background-color: #9370db; /* Light background color by default */
     color: black;
     transition: background-color 0.3s ease, color 0.3s ease;
 }
