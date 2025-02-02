@@ -1,1 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings - Bored in Class</title>
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/1828/1828771.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <h1>Bored in Class - Settings</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="games.html">Games</a></li>
+                <li><a href="settings.html">Settings</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="settings">
+            <h2>Adjust Your Preferences</h2>
+            
+            <label for="theme-toggle">Dark Mode</label>
+            <input type="checkbox" id="theme-toggle">
+
+            <h3>Background Music</h3>
+            <label for="music-toggle">Enable Background Music</label>
+            <input type="checkbox" id="music-toggle">
+
+            <select id="music-select">
+                <option value="music1">Music 1</option>
+                <option value="music2">Music 2</option>
+            </select>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Bored in Class</p>
+    </footer>
+
+    <audio id="background-audio">
+        <source id="audio-source" src="" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
 
